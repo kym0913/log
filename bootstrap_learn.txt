@@ -24,5 +24,16 @@ body{
         padding-left:15px;
         margin-right:auto;
         margin-left:auto;
+}padding为固定值，所以默认容器无法嵌套
+.container:before,
+.container:after{
+    display:table;
+    content:"";
 }
+产生伪元素，设置display为table，会创建一个匿名的table-cell和一个新的块格式化上下文
+.container:after{
+    ckear:both;
+}
+保证容器包含的所有浮动元素
+
 
