@@ -1,0 +1,10 @@
+Bootstrap 网格系统
+基本结构：
+<div class="container">
+    <div class="row">
+        <div class="col-*-*"></div>
+        <div class="col-*-*"></div>
+    </div>
+    <div class="row">..</div>
+</div>
+<div class="container">...</div>
