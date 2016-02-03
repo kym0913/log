@@ -8,3 +8,18 @@ Bootstrap 网格系统
     <div class="row">..</div>
 </div>
 <div class="container">...</div>
+
+偏移列
+使用col-md-offset-*类 左边距（margin）增加*列。
+实例见bootstrap1.1.html
+
+嵌套列
+为了在内容中嵌套默认的网格，请添加一个新的,row，并在一个已有的.col-md-*列内加一组.col-md-*列。
+
+
+列排序
+bootstrap Grid system另一个完美的特性，就是宁可以很容易地以一种顺序写列，然后以另一种顺序显示列。
+使用.col-md-push-*和.col-md-pull,范围是1-11.
+
+
+Bootstrap排版
