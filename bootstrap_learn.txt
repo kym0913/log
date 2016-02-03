@@ -1,0 +1,28 @@
+bootstrap入门
+
+1\ initial-scale=1.0 ===<meta name="viewport" content="width=device-width, initial-scale=1.0">确保适当的绘制和触屏缩放 user-scalable = no 可以禁止其缩放功能。
+initial-scale=1.0,maximum-scale=1.0.user-scalable=no;
+2\img-responsive===<img src="..." class="img-responsive" alt="响应式图像">
+.img-responsive{
+    display:inline-block;
+    height:auto;
+    max-width:100%;
+}
+max-width:100%和height:auto;属性，可以让图像按比例缩放，不超过父元素的尺寸。height:auto;取决于浏览器；max-width:100%:会重写任何通过width属性指定的宽度，这让图片对响应式布局支持更友好。
+display:inline-block：相对与周围的内容以内联式呈现，但可以设置其宽高。
+3\body{margin:0}
+body{
+    font-famil:"Helvetica Neue",Helvtica,Arical,sans-serif;
+    font-size:14px;
+    line-height: 1.428571429;
+    color:#333;
+    background-color:#fff;
+}
+4\container===<div class="container">
+.container{
+        padding-right:15px;
+        padding-left:15px;
+        margin-right:auto;
+        margin-left:auto;
+}
+
